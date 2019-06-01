@@ -2,7 +2,7 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     arguments.each do |arr| 
-       return {arr}
+       puts "{arr}"
       #binding.pry
     end
   end
