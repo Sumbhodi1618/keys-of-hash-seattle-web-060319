@@ -4,6 +4,6 @@ class Hash
     #keys.each do |arr| 
       #puts "#{arr}: #{arguments}"
       binding.pry
-    end
+    #end
   end
 end
