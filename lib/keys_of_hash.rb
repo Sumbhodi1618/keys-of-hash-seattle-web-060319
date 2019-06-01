@@ -1,7 +1,7 @@
 require 'pry'
 class Hash
   def keys_of(arguments,*keys)
-    arguments.each do |arr| 
+    keys.each do |arr| 
       puts "#{arr}: #{arguments}"
            binding.pry
     end
